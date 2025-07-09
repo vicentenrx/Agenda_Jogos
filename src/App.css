@@ -1,0 +1,20 @@
+#root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listaCards {
+  display: grid;
+  grid-template-columns: repeat(3, calc(32%));
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 12px; 
+  padding: 10px;
+  justify-content: center;   
+}
+
+.titulo_App{
+  display:  flex;
+  justify-content: center; 
+  align-items: center;
+  color: white  ;
+}

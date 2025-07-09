@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech&family=Staatliches&display=swap');
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #646464, #124203, #052e01);
+ ;
+}
+.centro-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+
+}
+.titulo_inclusao{
+    margin-top: 3rem;
+    font-family: Staatliches;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+
+.campos {
+    font-size: 14px;
+    border-top-left-radius: 0.75rem; 
+    border-bottom-right-radius: 0.75rem;
+    padding: 4px;
+    border: 1px solid #d1d5db;
+}
+
+.campos:focus {
+  box-shadow: 0 0 0 3px rgba(224, 236, 255, 0.475);
+  outline: none;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: Staatliches;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-left: 4rem;
+}
+.submit {
+   background-color: #021108;
+color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.submit:hover {
+  background-color: #2ecc71;
+}
+.reset {
+    background-color: #222;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset:hover {
+  background-color: red;
+}
+.duas-colunas {
+    display: flex;
+      width: 14.375rem;
+}
+
+.texto-grande {
+    width: 25rem;
+}
+
+.texto-menor {
+   width: 14.375rem;
+}
+
+.numero {
+    width: 7.5rem;
+}
+
+.margem-esq {
+    margin-left: 2.5rem;
+}

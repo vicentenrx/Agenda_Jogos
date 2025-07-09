@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech&family=Staatliches&display=swap');
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+nav {
+display: flex; 
+padding: 2rem;
+align-items: center;
+justify-content: space-between;
+background: linear-gradient(to bottom, #ffffff, #00943D, #124203);
+}
+
+nav > img {
+    width: 8rem;
+    margin-left: 850px;
+}
+
+.nav-links {
+    display: flex;
+    gap: .5rem
+}
+
+.links {
+    text-decoration: none;
+    padding: 0.9rem 1.6rem;
+    background-color: #045c29;;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.links:hover {
+    background-color:  #081a07;
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    cursor: pointer;
+}

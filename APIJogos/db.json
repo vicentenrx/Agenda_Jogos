@@ -1,0 +1,13 @@
+{
+  "jogos": [
+    {
+      "id": "11fb",
+      "partida": "Gremio x Internacional",
+      "campeonato": "Brasileirão 2025 BETANO",
+      "duracao": "90",
+      "local": "Beira Rio - POA 21/10/2025 21h",
+      "descricao": "Jogo de futebol entre os times Gremio e Internacional, dois grandes rivais do Rio Grande do Sul.",
+      "cartaz": "https://s2-oglobo.glbimg.com/OJg9srPcQq9IL-IlPxPoNs2wEnE=/0x0:1100x745/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/6/N/AtgrJCQTCQZ5nVfufxxw/confronto-gremio-rs-vs-internacional-rs-.png"
+    }
+  ]
+}

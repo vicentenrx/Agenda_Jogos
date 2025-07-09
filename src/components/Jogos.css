@@ -1,0 +1,120 @@
+
+.container-jogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20rem;
+  padding: 1rem;
+}
+.cards{
+  display: flex;
+  flex-direction: column; 
+  width: 30rem;  
+/*margin: 10px;*/
+  background-color: #045c29;
+  border: 2px solid #ffffff;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 6px;
+  transition: 1s;
+}
+
+.cards > img {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+
+}
+
+
+ .check{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 2rem;
+ }
+ .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  flex: none;
+  cursor: pointer;
+}
+
+.checkbox-container span {
+  font-size: 16px;
+}
+
+.cards:hover{
+  background-color: #021607;
+}
+
+.btn-avalia {
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  background-color: #00f;
+  border: 0;
+  border-radius: 6px;  
+  margin-top: 12px;
+}
+
+.btn-avalia:hover {
+  color: #ffffff;
+  background-color: rgb(18, 18, 124);
+}
+
+.cards h2, .cards h3, .cards h4  {
+  margin: 6px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.descricao {
+  font-size: small;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.estrelas-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-ver {
+  cursor: pointer;
+  background-color: rgb(20, 16, 49);
+  color: #fff;
+  font-weight: bold;
+  font-size: small;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.btn-ver:hover{
+background-color: #000000;
+}
